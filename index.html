@@ -2,9 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title> <h1> Poll </h1> </title>
+        <title> Poll  </title>
     </head>
     <body>
+        <h1>Poll </h1>
        <form action="https://formspree.io/kras.marjana@gmail.com" method="POST">
           <label for="name"><b>Name:</b></label><br>
           <input type="text" name="name" id="name" required> 
@@ -44,6 +45,17 @@
           <label for="comment"><b>Comments:</b></label><br>
           <textarea name="comment" id="comment" required></textarea>
           <br>
+           <label for="comment"><b>Confirm YOU are not bot (choose the number less then 100):</b></label><br>
+           <label for="gender"><b>Confirm YOU are not bot (choose the number less then 100):</b>:</label><br>
+              <label> <input type="radio" name="number1" value="num1"> 304
+                </label>
+                <label> <input type="radio" name="number2" value="num2"> 45
+                </label>
+                <label> <input type="radio" name="number3" value="num3"> 103
+                </label>
+           <br>
+           
+           
           <label for="submit">Submit form?</label><br>
           <input type="submit" name="submit" value="Ok">
           <input type="submit" name="submit" value="Cancel">
