@@ -1,9 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title> </title>
+        <meta charset="UTF-8">
+        <title> <h1> Poll </h1> </title>
     </head>
     <body>
-
+       <form action="https://formspree.io/kras.marjana@gmail.com" method="POST">
+          <label for="name"><b>Name:</b></label><br>
+          <input type="text" name="name" id="name" required> 
+          <br>
+          <label for="age"><b>Age</b>:</label><br>
+          <input type="text" name="age" id="age" required>
+          <br>
+          
+          <label for="gender"><b>Gender</b>:</label><br>
+              <label> <input type="radio" name="sex" value="Male"> Male
+                </label>
+                <label> <input type="radio" name="sex" value="Female"> Female
+                </label> <br>
+                
+            <label for="degree"><b>Academic degree obtained</b>:</label><br>
+             <input type="radio" name="Academic degree obtained:" id="r1" value="ungrad"/>
+          <label for="r4">a) Undegraduate</label><br> <input type="radio" name="Academic degree obtained:" id="r2" value="master"/>
+          <label for="r5">b) Master</label><br> <input type="radio" name="Academic degree obtained:" id="r3" value="phd"/>
+          <label for="r6">c) PhD</label><br>  <input type="radio" name="Academic degree obtained:" id="r4" value="others"/>
+          <label for="r6">d) Others
+            </label><br>
+              <label for="position"><b>Current position</b>:</label><br>
+             <input type="radio" name="Current position" id="r5" value="student"/>
+          <label for="r4">a) Student</label><br>   
+                <input type="radio" name="Current position" id="r6" value="student"/>
+          <label for="r4">b) PhD</label><br>
+              <input type="radio" name="Current position" id="r7" value="student"/>
+          <label for="r4">c) PostDoc</label><br>
+               <input type="radio" name="Current position" id="r8" value="student"/>
+          <label for="r4">d) Professor</label><br> 
+              <input type="radio" name="Current position" id="r9" value="student"/>
+          <label for="r4">d) Others
+              </label><br>
+          <label for="email"><b>E-mail:</b></label><br>
+          <input type="email" name="email" id="email" required>
+          <br>
+          <label for="comment"><b>Comments:</b></label><br>
+          <textarea name="comment" id="comment" required></textarea>
+          <br>
+          <label for="submit">Submit form?</label><br>
+          <input type="submit" name="submit" value="Ok">
+          <input type="submit" name="submit" value="Cancel">
+       </form>
     </body>
 </html>
